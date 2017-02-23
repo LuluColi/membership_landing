@@ -9,7 +9,76 @@
   </head>
   <body> 	 
     <header>     
-      <div class="header"><img class="logo" src="img/logo.png" alt="">
+      <div class="header">
+        <img class="logo" src="img/logo.png" alt="">
+        <svg width="500" height="500" viewBox="0 0 500 200" class="ball1">
+            <defs>
+                <linearGradient id="linear-gradient">
+                    <stop offset="0" stop-color="#e86d77"/>
+                    <stop offset="1" stop-color="#be5962"/>
+                </linearGradient>
+            </defs>
+            <path id="motionPath" fill="none" stroke="none" stroke-miterlimit="10" d="M250,449.5 C139.819192,449.5 50.5,360.180808 50.5,250 C50.5,139.819192 139.819192,50.5 250,50.5 C360.180808,50.5 449.5,139.819192 449.5,250 C449.5,360.180808 360.180808,449.5 250,449.5 Z"/>
+            <circle id="motionPath" fill="none" stroke="none" cx="250" cy="250" r="200"></circle>
+    
+            <circle id="circle" r="25" cx="0" cy="0" fill="url(#linear-gradient)" />
+     
+            <animateMotion 
+                     xlink:href="#circle"
+                     dur="10s"
+                     begin="0s"
+                     fill="freeze"
+                     repeatCount="indefinite">
+              <mpath xlink:href="#motionPath" />
+            </animateMotion>
+        </svg>
+        <svg width="500" height="500" viewBox="0 0 500 300" class="ball2">
+            <defs>
+                <linearGradient id="linear-gradient2">
+                    <stop offset="0" stop-color="#edc97f"/>
+                    <stop offset="1" stop-color="#cc9831"/>
+                </linearGradient>
+            </defs>
+            <path id="motionPath2" fill="none" stroke="none" stroke-miterlimit="10" d="M250,449.5 C139.819192,449.5 50.5,360.180808 50.5,250 C50.5,139.819192 139.819192,50.5 250,50.5 C360.180808,50.5 449.5,139.819192 449.5,250 C449.5,360.180808 360.180808,449.5 250,449.5 Z"/>
+            <circle id="motionPath2" fill="none" stroke="none" cx="250" cy="250" r="200"></circle>
+    
+            <circle id="circle2" r="28" cx="0" cy="0" fill="url(#linear-gradient2)" />
+     
+            <animateMotion 
+                     xlink:href="#circle2"
+                     dur="15s"
+                     begin="0s"
+                     fill="freeze"
+                     repeatCount="indefinite"
+                     keyPoints="1;0" 
+                     keyTimes="0;1" 
+                     calcMode="linear"
+                     >
+
+              <mpath xlink:href="#motionPath2" />
+            </animateMotion>
+        </svg>
+        <svg width="500" height="500" viewBox="0 0 400 400" class="ball3">
+            <defs>
+                <linearGradient id="linear-gradient3">
+                    <stop offset="0" stop-color="#ffffff"/>
+                    <stop offset="1" stop-color="#d6d6d6"/>
+                </linearGradient>
+            </defs>
+            <path id="motionPath3" fill="none" stroke="none" stroke-miterlimit="10" d="M250,449.5 C139.819192,449.5 50.5,360.180808 50.5,250 C50.5,139.819192 139.819192,50.5 250,50.5 C360.180808,50.5 449.5,139.819192 449.5,250 C449.5,360.180808 360.180808,449.5 250,449.5 Z"/>
+            <circle id="motionPath3" fill="none" stroke="none" cx="250" cy="250" r="200"></circle>
+    
+            <circle id="circle3" r="15" cx="0" cy="0" fill="url(#linear-gradient3)" />
+     
+            <animateMotion 
+                     xlink:href="#circle3"
+                     dur="20s"
+                     begin="0s"
+                     fill="freeze"
+                     repeatCount="indefinite">
+              <mpath xlink:href="#motionPath3" />
+            </animateMotion>
+        </svg>
       </div>
     </header>
     <div class="content">
@@ -31,10 +100,10 @@
         </p>
       </div>
       <hr>
-      <h1>端會員計劃</h1>
+      <h1>端會員</h1>
       <div class="plansrow">      	
         <div class="plan"> 
-          <div class="illustration"><img src="img/illus1.png" alt=""></div>
+          <div class="illustration"><img src="img/illus3.png" alt=""></div>
             <ul class="description">
               <li>端傳媒×獨立書店「知識人文聯盟」<a class="giftlink" href="*">Super Pass＊</a></li>
               <li>優先參加端傳媒舉辦的人文沙龍、講座和KOL見面會</li>
