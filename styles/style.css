@@ -20,6 +20,11 @@ img {
   margin-left: 30px;
   float: left;
 }
+.logob{
+  display: block;
+  width: 80px;
+  margin: 20px auto;
+}
 .ball1{
   width: 500px;
   height: 500px;
@@ -174,6 +179,10 @@ a.subscribe:focus {
     width:35px;
     margin-top: 10px;
     margin-left: 10px;
+  }
+  .logob{
+    width: 60px;
+    margin: 20px auto 80px auto;
   }
   .content{
     margin: 30px auto;
