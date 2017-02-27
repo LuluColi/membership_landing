@@ -14,6 +14,14 @@ h1{
 img {
 	max-width: 100%;
 }
+hr{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #e5e5e5;
+  margin: 1em 0;
+  padding: 0;
+}
 .logo{
   width: 50px;
   margin-top: 20px;
@@ -158,7 +166,28 @@ a.subscribe:focus {
   text-align: right;
   color: #2BB6C9;
 }
-
+.qaunit{
+  width: 90%;
+  margin: 10px auto;
+}
+.question:before {
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  left: -20px;
+  content: url('../img/inicon.svg');
+  float:left;
+}
+.question{
+  margin-top:50px;
+  margin-left: -25px;
+  font-weight: bold;
+  color: #2BB6C9;
+}
+.answer{
+  color: #9B9B9B;
+}
 .footer{
   margin: 0 auto;
   padding: 30px 10%;
@@ -239,6 +268,17 @@ a.subscribe:focus {
   .ball3{
     width:220px;
     height: 220px;
+  }
+  .qaunit{
+    font-size: .9em;
+  }
+  .question:before{
+    width: 20px;
+    height: 20px;
+    left: -10px;
+  }
+  .question{
+    margin-left: -20px;
   }
 }
 @media screen (min-width: 601px) and (max-width: 1200px){
